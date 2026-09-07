@@ -1,0 +1,7 @@
+services:
+  ai-video-editor:
+    build: .
+    container_name: ai-video-editor-app
+    ports:
+      - "3699:80"
+    restart: always
